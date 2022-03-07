@@ -24,7 +24,7 @@ if [ -d "$int3" ]
 then
 echo "Введитте имя,для создаваемого файла"
 read int33
-touch $int3 + $int33
+touch "$int3"/"$int33"
 echo "Файл успешно создан"
 else
  echo "Путь не найден!"
